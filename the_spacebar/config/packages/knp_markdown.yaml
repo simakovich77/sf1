@@ -1,0 +1,5 @@
+# Symfony 3: app/config/config.yml
+# Symfony 4: config/packages/knp_markdown.yaml (you'll need to create this)
+knp_markdown:
+  parser:
+    service: markdown.parser.light
